@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 17px;
+    /*font-family: 'Lobster', cursive;*/
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+#logo {
+    font-weight: 800;
+    font-size: larger;
+    text-decoration: none;
+    margin: 35px 20px;
+    font-family: 'Lobster', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 15px;
+    color: black;
+    border-left: 1px solid black;
+}
+
+.active,
+ul li a:hover {
+    background-color: #db512e;
+    color: white;
+}
+
+section {
+    margin: 120px 70px;
+    display: flex;
+    ;
+}
+
+img {
+    width: 50%;
+    float: left;
+    margin-left: 70px;
+}
+
+.section {
+    margin-top: 10%;
+    margin-right: 70px;
+    text-align: left;
+}
+
+h1 {
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+section p {
+    margin-top: 10px;
+    color: #db512e;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+section li {
+    margin-top: 10px;
+    float: left;
+}
+
+main {
+    background-image: url("https://files.nc.gov/dit/styles/carousel/public/images/2022-10/csam-3.png?VersionId=MZrmbX8ePq1OnqIhsh5.I82Qfl5XugL6&itok=4fYNgHon");
+    background-size: cover;
+    background-position-x: center;
+    margin: 50% 0%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10% 0;
+}
+
+main img {
+    border-radius: 50%;
+    padding-right: 30px;
+}
+
+main p {
+    color: rgb(236, 22, 22);
+    font-size: 17px;
+    text-align: justify;
+}
+
+article {
+    background-image: url("https://files.nc.gov/dit/styles/carousel/public/images/2022-10/csam-3.png?VersionId=MZrmbX8ePq1OnqIhsh5.I82Qfl5XugL6&itok=4fYNgHon");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10% 0;
+    margin: 50% 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    padding: 30px;
+}
+
+.column {
+    max-width: 31.333%;
+    padding: 0 10px;
+    height: 240px;
+}
+
+.column img {
+    width: 100%;
+}
+
+article h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #db512e;
+}
+
+article p {
+    margin-left: 35%;
+}
+
+article p a {
+    text-decoration: #db512e;
+    color: #db512e;
+    font-weight: 600;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
